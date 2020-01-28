@@ -4,13 +4,15 @@ require_relative './dance_module.rb'
 module FancyDance
   module InstanceMethods
     def twirl
+      "I'm twirling!"
     end
     def jump
+      "Look how highm jumping!"
     end
-def pirouette
-end
-def tale_a_bow
-end
+    def pirouette
+    end
+    def take_a_bow
+    end
 
 end
   module ClassMethods
